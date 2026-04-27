@@ -60,7 +60,9 @@ Creates recurring schedules using:
 - daily
 - weekly
 - monthly
-  main()
+
+main()
+
 - Reads user arguments
 - Applies business-day logic
 - Converts time zones
