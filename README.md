@@ -56,15 +56,16 @@ Automatically skips Saturday and Sunday
 generate_recurrences()
 
 Creates recurring schedules using:
---daily
---weekly
---monthly
-main()
---Reads user arguments
---Applies business-day logic
---Converts time zones
---Generates recurrence schedules
---Returns results in table format
+
+- daily
+- weekly
+- monthly
+  main()
+- Reads user arguments
+- Applies business-day logic
+- Converts time zones
+- Generates recurrence schedules
+- Returns results in table format
 
 ---
 
@@ -72,10 +73,10 @@ main()
 
 This skill worked well because:
 
---The AI agent successfully discovered the skill using the SKILL.md name and description
---The agent knew when to activate the skill for date/time requests
---The Python script handled exact calculations more reliably than manual reasoning
---Final outputs were clear, structured, and reusabl
+- The AI agent successfully discovered the skill using the SKILL.md name and description
+- The agent knew when to activate the skill for date/time requests
+- The Python script handled exact calculations more reliably than manual reasoning
+- Final outputs were clear, structured, and reusabl
 
 ---
 
@@ -83,13 +84,9 @@ This skill worked well because:
 
 Current limitations include:
 
---weekends are skipped, but public holidays in some specific countries or regions are not included
---monthly recurrence uses simplified logic
---legal or compliance deadlines should not rely only on this tool
---does not connect directly to Google Calendar or Outlook
+- weekends are skipped, but public holidays in some specific countries or regions are not included
+- monthly recurrence uses simplified logic
+- legal or compliance deadlines should not rely only on this tool
+- does not connect directly to Google Calendar or Outlook
 
 ## Demo Video Link
-
-```
-
-```
