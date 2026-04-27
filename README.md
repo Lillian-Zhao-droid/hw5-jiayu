@@ -35,7 +35,6 @@ I chose this topic because I frequently need to hold online meetings with people
 
 Example command:
 
-```bash
 python .agents/skills/business-time-converter/scripts/business_time_converter.py \
 --start "2026-05-01 09:00" \
 --source-tz America/New_York \
@@ -90,4 +89,7 @@ Current limitations include:
 --does not connect directly to Google Calendar or Outlook
 
 ## Demo Video Link
+
+```
+
 ```
